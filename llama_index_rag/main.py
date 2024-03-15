@@ -22,7 +22,7 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 storage_path = "./vectorstore"
 documents_path = "/Users/subbu/Desktop/practice_llms_rags/llama_index_rag/documents"
 
-hf_token = "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"
+hf_token = "YOUR_HUGGINGFACE_TOKEN"
 
 llm = HuggingFaceLLM(
     model_name="HuggingFaceH4/zephyr-7b-alpha",
